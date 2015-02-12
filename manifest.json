@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+
+	"name": "Hajime Newtab Replacement",
+	"description": "Replaces the newtab page with a simple image according to the time of day and clock.",
+	"version": "1.0",
+
+	"chrome_url_overrides" : {
+		"newtab" : "myPage.html"
+	}
+}

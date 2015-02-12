@@ -1,0 +1,44 @@
+    ::-moz-selection{
+    background-color:Transparent;
+    color:#FEFEFE;
+    }
+
+    ::selection {
+    background-color:Transparent;
+    color:#FEFEFE;
+    }
+.myclass::-moz-selection,
+.myclass::selection { ... }
+
+html {
+	
+}
+
+body {
+	text-align: Left;
+    color: #F5F5F5;
+
+    margin-top: 4%;
+    text-shadow: 6px 6px 6px #000000;
+    cursor: default;
+}
+
+#time {
+	font: 15em 'helvetica neue', sans-serif;
+	font-weight: 100;
+	margin-left: 7%;
+}
+
+#ampm {
+	font: 6em 'helvetica neue', sans-serif;
+	font-weight: 100;
+	margin-left: 1%;
+}
+
+@media (max-width: 800px) {
+	body {
+		text-align: center;
+		margin-left: 0px;
+		margin-right: 5%;
+	}
+}
