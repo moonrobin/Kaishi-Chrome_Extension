@@ -1,11 +1,17 @@
 {
 	"manifest_version": 2,
 
-	"name": "Hajime Newtab Replacement",
+	"name": "Kaishi",
 	"description": "Replaces the newtab page with a simple image according to the time of day and clock.",
 	"version": "1.0",
 
-	"chrome_url_overrides" : {
-		"newtab" : "myPage.html"
+	"options_ui": {
+		"page": "config.html",
+		"chrome_style": true
+	},
+
+	"chrome_url_overrides": {
+		"newtab" : "newTab.html"
 	}
+
 }
